@@ -3,7 +3,11 @@
   <entry>
     <title>SQL语句超全总结</title>
     <url>/2020/03/26/SQL%E8%AF%AD%E5%8F%A5%E8%B6%85%E5%85%A8%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<h2 id="1-数据相关操作"><a href="#1-数据相关操作" class="headerlink" title="1. 数据相关操作"></a>1. 数据相关操作</h2><h5 id="1-1-登录"><a href="#1-1-登录" class="headerlink" title="1.1  登录"></a>1.1  登录</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-- u和p后面没有空格</span><br><span class="line">mysql -u用户名 -p密码</span><br><span class="line">mysql -hIP地址 -u用户名 -p密码</span><br><span class="line">mysql --host&#x3D;IP地址 --user&#x3D;用户名 --password&#x3D;密码</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">title</span>: <span class="selector-tag">SQL</span>语句超全总结</span><br><span class="line"><span class="selector-tag">date</span>: 2020<span class="selector-tag">-03-24</span> 22<span class="selector-pseudo">:58</span><span class="selector-pseudo">:56</span></span><br><span class="line"><span class="selector-tag">tags</span>: <span class="selector-attr">[数据库,sql语句]</span></span><br><span class="line"><span class="selector-tag">categories</span>: 数据库</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="1-数据相关操作"><a href="#1-数据相关操作" class="headerlink" title="1. 数据相关操作"></a>1. 数据相关操作</h2><h5 id="1-1-登录"><a href="#1-1-登录" class="headerlink" title="1.1  登录"></a>1.1  登录</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-- u和p后面没有空格</span><br><span class="line">mysql -u用户名 -p密码</span><br><span class="line">mysql -hIP地址 -u用户名 -p密码</span><br><span class="line">mysql --host&#x3D;IP地址 --user&#x3D;用户名 --password&#x3D;密码</span><br></pre></td></tr></table></figure>
 
 <h5 id="1-2-退出"><a href="#1-2-退出" class="headerlink" title="1.2 退出"></a>1.2 退出</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">quit 或 exit</span><br></pre></td></tr></table></figure>
 
